@@ -54,6 +54,11 @@
 </head><!--/head-->
 </head>
 <body>
+<%
+	if(session.getAttribute("login")==null){
+		response.sendRedirect("login.jsp");
+	}
+%>
 <div class="col-sm-4">
 						<div class="logo pull-center">
 							<a href="index.jsp"><img src="images/home/logo.png" alt="" /></a>
@@ -74,7 +79,7 @@
 									<option value="1"> Classic </option>
 									<option value="2"> Acoustic </option>
 									<option value="3">Electric</option>
-									<option value="4">Used</option>
+									<option value="4">Used</option>x`
 									<option value="5">Accesories</option>
 							</select>
 							<h2>Material</h2>

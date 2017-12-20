@@ -3,7 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -31,40 +32,18 @@
     	<div class="bg">
 	    	<div class="row">    		
 	    		<div class="col-sm-12">    			   			
-					<h2 class="title text-center">Contact <strong>Us</strong></h2>    			    				    				
+					<h2 class="title text-center">Contact</h2>    			    				    				
 
 				</div>			 		
 			</div>    	
-    		<div class="row">  	
-	    		<div class="col-sm-8">
-	    			<div class="contact-form">
-	    				<h2 class="title text-center">Get In Touch</h2>
-	    				<div class="status alert alert-success" style="display: none"></div>
-				    	<form id="main-contact-form" class="contact-form row" name="contact-form" method="post">
-				            <div class="form-group col-md-6">
-				                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
-				            </div>
-				            <div class="form-group col-md-6">
-				                <input type="email" name="email" class="form-control" required="required" placeholder="Email">
-				            </div>
-				            <div class="form-group col-md-12">
-				                <input type="text" name="subject" class="form-control" required="required" placeholder="Subject">
-				            </div>
-				            <div class="form-group col-md-12">
-				                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your Message Here"></textarea>
-				            </div>                        
-				            <div class="form-group col-md-12">
-				                <input type="submit" name="submit" class="btn btn-primary pull-right" value="Submit">
-				            </div>
-				        </form>
-	    			</div>
-	    		</div>
-	    		<div class="col-sm-4">
+	    		<div class="col-sm-12">
 	    			<div class="contact-info">
-	    				<h2 class="title text-center">Contact Info</h2>
+	    				<h2 class="title text-center">Info</h2>
 	    				<address>
 	    					<p>Guitar Seller Inc.</p>
-							<p>Trường CĐ Viễn Đông ,Công viên phần mềm Quang Trung, P. Tân Chánh Hiệp, Q.12, TP.HCM</p>
+							<p>To get more detail information and purchase</p>
+							<p>or any consultation and support </p>
+							<p>please contact us:</p>
 							<p>Mobile: (+84) 0907 546 581</p>
 							<p>Email: btduy85@gmail.com</p>
 							<p>https://www.facebook.com/profile.php?id=100007668551735</p>

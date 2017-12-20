@@ -54,7 +54,7 @@
 					<div class="col-sm-8">
 						<div class="shop-menu pull-right">
 							<ul class="nav navbar-nav">
-								<li><a href="index.jsp"><i class="fa fa-lock"></i> Logout </a></li>
+								<li><a href="/Seller1/CheckLogin?command=logout"><i class="fa fa-lock"></i> Logout </a></li>
 							</ul>
 						</div>
 					</div>
@@ -73,12 +73,13 @@
 								<div class="single-products">
 										<div class="productinfo text-center">
 											<h2><%= p.getName() %></h2>
+											<iframe src="<%= p.getPicture()%>" width="220" height="220"></iframe>
 											<%switch(p.getGuitar()){
-											case 1 : out.print("<b><font color=#6600CC>Classic Guitar</font></b>"); break;
-											case 2 : out.print("<b><font color=#6600CC>Acoustic Guitar</font></b>"); break;
-											case 3 : out.print("<b><font color=#6600CC>Electric Guitar</font></b>"); break;
-											case 4 : out.print("<b><font color=#6600CC>Used Guitar</font></b>"); break;
-											case 5 : out.print("<b><font color=#6600CC>Accesories Guitar</font></b>"); break;
+											case 1 : out.print("<br><b><font color=#6600CC>Classic Guitar</font></b>"); break;
+											case 2 : out.print("<br><b><font color=#6600CC>Acoustic Guitar</font></b>"); break;
+											case 3 : out.print("<br><b><font color=#6600CC>Electric Guitar</font></b>"); break;
+											case 4 : out.print("<br><b><font color=#6600CC>Used Guitar</font></b>"); break;
+											case 5 : out.print("<br><b><font color=#6600CC>Accesories Guitar</font></b>"); break;
 											default: break;
 											}
 											%>

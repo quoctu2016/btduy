@@ -28,7 +28,19 @@ public class CheckLogin extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		HttpSession session = request.getSession();
+		String command = request.getParameter("command");
+		
+		switch (command) {
+		case "logout":
+			session.setAttribute("login", null);
+			response.sendRedirect("index.jsp");
+			break;
+
+		default:
+			break;
+		}
+		
 	}
 
 	/**
